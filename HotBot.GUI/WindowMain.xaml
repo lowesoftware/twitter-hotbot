@@ -1,0 +1,19 @@
+﻿<Window x:Class="HotBot.GUI.WindowMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="HotBot" Height="500" Width="900">
+    <Grid>
+
+        <Menu Height="22"  Name="menuMain" VerticalAlignment="Top">
+            <MenuItem Header="Job">
+                <MenuItem Header="New" Click="MenuJobNew_Click"></MenuItem>
+                <MenuItem Header="Delete" Click="MenuJobDelete_Click"></MenuItem>
+                <MenuItem Header="Save" Click="MenuJobSave_Click"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Exit" Click="MenuJobExit_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TabControl Name="tabJobs" Margin="0 22 0 0">
+        </TabControl>
+    </Grid>
+</Window>

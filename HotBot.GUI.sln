@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotBot.GUI", "HotBot.GUI\HotBot.GUI.csproj", "{B03DD6DA-8CC7-45A4-B433-24CB9126F890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NClassifier", "NClassifier\NClassifier.csproj", "{688701F9-7D95-435D-941F-54A4F3437205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF_IDFWeighting", "TFIDF\TF_IDFWeighting.csproj", "{1B497833-99C6-4F59-AE7B-BE93F63BD74D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterService", "TwitterService\TwitterService.csproj", "{143D0C43-589B-4BAC-8F21-E3581AE269E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotBot.Data", "HotBot.Data\HotBot.Data.csproj", "{A91AD689-891F-47AA-89EF-B22490119541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotBot.Designer", "HotBot.Designer\HotBot.Designer.csproj", "{6217A969-39B0-4BFD-89E2-1307752B40A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03DD6DA-8CC7-45A4-B433-24CB9126F890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03DD6DA-8CC7-45A4-B433-24CB9126F890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03DD6DA-8CC7-45A4-B433-24CB9126F890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03DD6DA-8CC7-45A4-B433-24CB9126F890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688701F9-7D95-435D-941F-54A4F3437205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688701F9-7D95-435D-941F-54A4F3437205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688701F9-7D95-435D-941F-54A4F3437205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688701F9-7D95-435D-941F-54A4F3437205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B497833-99C6-4F59-AE7B-BE93F63BD74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B497833-99C6-4F59-AE7B-BE93F63BD74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B497833-99C6-4F59-AE7B-BE93F63BD74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B497833-99C6-4F59-AE7B-BE93F63BD74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143D0C43-589B-4BAC-8F21-E3581AE269E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143D0C43-589B-4BAC-8F21-E3581AE269E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143D0C43-589B-4BAC-8F21-E3581AE269E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143D0C43-589B-4BAC-8F21-E3581AE269E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91AD689-891F-47AA-89EF-B22490119541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91AD689-891F-47AA-89EF-B22490119541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91AD689-891F-47AA-89EF-B22490119541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91AD689-891F-47AA-89EF-B22490119541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6217A969-39B0-4BFD-89E2-1307752B40A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6217A969-39B0-4BFD-89E2-1307752B40A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6217A969-39B0-4BFD-89E2-1307752B40A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6217A969-39B0-4BFD-89E2-1307752B40A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
